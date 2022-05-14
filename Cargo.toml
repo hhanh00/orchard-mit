@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "components/halo2/halo2",
+    "components/halo2/halo2_gadgets",
+    "components/halo2/halo2_proofs",
+    "components/orchard",
+    "test_orchard"
+]
+
+[patch.crates-io]
+halo2_gadgets = { path = "./components/halo2/halo2_gadgets" }
+halo2_proofs = { path = "./components/halo2/halo2_proofs" }
+orchard = { path = "./components/orchard" }
+pasta_curves = { path = "./components/pasta_curves" }

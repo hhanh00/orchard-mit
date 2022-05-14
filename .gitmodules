@@ -1,0 +1,9 @@
+[submodule "components/orchard"]
+	path = components/orchard
+	url = git@github.com:hhanh00/orchard.git
+[submodule "components/halo2"]
+	path = components/halo2
+	url = git@github.com:hhanh00/halo2.git
+[submodule "components/pasta_curves"]
+	path = components/pasta_curves
+	url = git@github.com:hhanh00/pasta_curves.git
